@@ -1,0 +1,38 @@
+{
+  "name": "testingapp",
+  "version": "1.0.0",
+  "description": "Sample Demo App In React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BharathiPadala/TestingApp.git"
+  },
+  "keywords": [
+    "react",
+    "demos",
+    "testing",
+    "app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BharathiPadala/TestingApp/issues"
+  },
+  "homepage": "https://github.com/BharathiPadala/TestingApp#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  }
+}
